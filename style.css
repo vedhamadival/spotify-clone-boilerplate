@@ -5,21 +5,17 @@
 }
 
 .left{
-    justify-content: space-between;
+    position: relative;
     line-height:1;
     letter-spacing:0;
 }
 p{
     font-size: 15px;
 }
-#liked{
-    background-image: url "https://github.com/vedhamadival/spotify-clone-boilerplate/blob/main/assets/object1.png?raw=true";
-}
 #heart{
     margin-left:20px;
 }
 .bottom{
-    position: sticky;
     display:inline;
     background-color: rgb(41, 39, 39);
 }
@@ -34,10 +30,11 @@ hr{
     background-color: rgb(5, 244, 5);
 }
 #nav{
-    margin-left:10px;
+    margin-left:100px;
 }
 #right{
     display:inline-flex;
-    margin-left: 500px;
+    margin-top: 50px;
     padding:20px;
+    font-size:50px;
 }
