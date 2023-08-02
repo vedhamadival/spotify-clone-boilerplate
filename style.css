@@ -1,11 +1,11 @@
 *{
     background-color: black;
-    color:white;
+    color: white;
     font-family:DM sans;
 }
+
 .left{
     justify-content: space-between;
-    padding:20px;
     line-height:1;
     letter-spacing:0;
 }
@@ -19,7 +19,25 @@ p{
     margin-left:20px;
 }
 .bottom{
-    display:inline-block;
+    position: sticky;
+    display:inline;
+    background-color: rgb(41, 39, 39);
+}
+#player{
+    margin-left:150px;
+}
+#options{
+    margin-left:70px;
+}
+hr{
+    padding-bottom:10px;
+    background-color: rgb(5, 244, 5);
+}
+#nav{
+    margin-left:10px;
+}
+#right{
+    display:inline-flex;
+    margin-left: 500px;
     padding:20px;
-    background-color: grey;
 }
