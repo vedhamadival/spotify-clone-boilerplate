@@ -122,7 +122,6 @@ button , button img{
     background-color: rgb(56, 55, 55);
 }
 .play5{
-    display: block;
     color:white;
     margin-left:280px;
     margin-top: 10px;
@@ -178,21 +177,29 @@ button , button img{
 } 
 
 @media(max-width:1000px){
-    .botext,.player,.ryt,.green,.sidebar{
+    .logo{
+        margin:5px;
+        padding-bottom: 0;
+    }
+    button{
+        display: flex;
+    }
+    .botext,.player,.ryt,.green,.left{
         display: none;
     }
     .Right{
-        margin-top: 30px;
+        margin-top: 10px;
         margin-left:5px;
     }
     .playlists{
         display: flex;
         flex-direction: column;
-        padding:30px;
+        /* padding:30px; */
     }
     .play1,.play5{
         display: block;
         margin-left:5px;
+        padding-top:0px;
     }
     .text{
         margin-left:5px;
